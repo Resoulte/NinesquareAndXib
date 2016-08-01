@@ -7,27 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0403F3911D4DE3D400F16F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F3901D4DE3D400F16F44 /* main.m */; };
-		0403F3941D4DE3D400F16F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F3931D4DE3D400F16F44 /* AppDelegate.m */; };
-		0403F3971D4DE3D400F16F44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F3961D4DE3D400F16F44 /* ViewController.m */; };
 		0403F39A1D4DE3D400F16F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0403F3981D4DE3D400F16F44 /* Main.storyboard */; };
 		0403F39D1D4DE3D400F16F44 /* NinesquareAndXib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0403F39B1D4DE3D400F16F44 /* NinesquareAndXib.xcdatamodeld */; };
 		0403F39F1D4DE3D400F16F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0403F39E1D4DE3D400F16F44 /* Assets.xcassets */; };
 		0403F3A21D4DE3D400F16F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0403F3A01D4DE3D400F16F44 /* LaunchScreen.storyboard */; };
+		0403F3BB1D4DE64E00F16F44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F3B11D4DE64E00F16F44 /* ViewController.m */; };
+		0403F3BC1D4DE64E00F16F44 /* SFShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F3B41D4DE64E00F16F44 /* SFShop.m */; };
+		0403F3BE1D4DE64E00F16F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F3B81D4DE64E00F16F44 /* AppDelegate.m */; };
+		0403F3BF1D4DE64E00F16F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F3B91D4DE64E00F16F44 /* main.m */; };
+		0403F3C21D4DE82300F16F44 /* SFShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403F3C11D4DE82300F16F44 /* SFShopView.m */; };
+		0403F3C41D4DE83800F16F44 /* SFShopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0403F3C31D4DE83800F16F44 /* SFShopView.xib */; };
+		04FE1DDF1D4ED9FE005227AB /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04FE1DDE1D4ED9FE005227AB /* app.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0403F38C1D4DE3D400F16F44 /* NinesquareAndXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinesquareAndXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0403F3901D4DE3D400F16F44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0403F3921D4DE3D400F16F44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0403F3931D4DE3D400F16F44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0403F3951D4DE3D400F16F44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0403F3961D4DE3D400F16F44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0403F3991D4DE3D400F16F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0403F39C1D4DE3D400F16F44 /* NinesquareAndXib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NinesquareAndXib.xcdatamodel; sourceTree = "<group>"; };
 		0403F39E1D4DE3D400F16F44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0403F3A11D4DE3D400F16F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0403F3A31D4DE3D400F16F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0403F3B01D4DE64E00F16F44 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0403F3B11D4DE64E00F16F44 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0403F3B31D4DE64E00F16F44 /* SFShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFShop.h; sourceTree = "<group>"; };
+		0403F3B41D4DE64E00F16F44 /* SFShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFShop.m; sourceTree = "<group>"; };
+		0403F3B71D4DE64E00F16F44 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0403F3B81D4DE64E00F16F44 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0403F3B91D4DE64E00F16F44 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0403F3C01D4DE82300F16F44 /* SFShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFShopView.h; sourceTree = "<group>"; };
+		0403F3C11D4DE82300F16F44 /* SFShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFShopView.m; sourceTree = "<group>"; };
+		0403F3C31D4DE83800F16F44 /* SFShopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFShopView.xib; sourceTree = "<group>"; };
+		04FE1DDD1D4E40D7005227AB /* NinesquareAndXib.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NinesquareAndXib.pch; sourceTree = "<group>"; };
+		04FE1DDE1D4ED9FE005227AB /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +71,7 @@
 		0403F38E1D4DE3D400F16F44 /* NinesquareAndXib */ = {
 			isa = PBXGroup;
 			children = (
-				0403F3921D4DE3D400F16F44 /* AppDelegate.h */,
-				0403F3931D4DE3D400F16F44 /* AppDelegate.m */,
-				0403F3951D4DE3D400F16F44 /* ViewController.h */,
-				0403F3961D4DE3D400F16F44 /* ViewController.m */,
+				0403F3AE1D4DE64E00F16F44 /* Classes */,
 				0403F3981D4DE3D400F16F44 /* Main.storyboard */,
 				0403F39E1D4DE3D400F16F44 /* Assets.xcassets */,
 				0403F3A01D4DE3D400F16F44 /* LaunchScreen.storyboard */,
@@ -77,9 +85,59 @@
 		0403F38F1D4DE3D400F16F44 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0403F3901D4DE3D400F16F44 /* main.m */,
+				04FE1DDD1D4E40D7005227AB /* NinesquareAndXib.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0403F3AE1D4DE64E00F16F44 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0403F3AF1D4DE64E00F16F44 /* Controller */,
+				0403F3B21D4DE64E00F16F44 /* Model */,
+				0403F3BA1D4DE64E00F16F44 /* View */,
+				0403F3B51D4DE64E00F16F44 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0403F3AF1D4DE64E00F16F44 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0403F3B01D4DE64E00F16F44 /* ViewController.h */,
+				0403F3B11D4DE64E00F16F44 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0403F3B21D4DE64E00F16F44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0403F3B31D4DE64E00F16F44 /* SFShop.h */,
+				0403F3B41D4DE64E00F16F44 /* SFShop.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0403F3B51D4DE64E00F16F44 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				04FE1DDE1D4ED9FE005227AB /* app.plist */,
+				0403F3B71D4DE64E00F16F44 /* AppDelegate.h */,
+				0403F3B81D4DE64E00F16F44 /* AppDelegate.m */,
+				0403F3B91D4DE64E00F16F44 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0403F3BA1D4DE64E00F16F44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0403F3C01D4DE82300F16F44 /* SFShopView.h */,
+				0403F3C11D4DE82300F16F44 /* SFShopView.m */,
+				0403F3C31D4DE83800F16F44 /* SFShopView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +166,7 @@
 		0403F3841D4DE3D400F16F44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SF;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = shifei;
 				TargetAttributes = {
@@ -139,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FE1DDF1D4ED9FE005227AB /* app.plist in Resources */,
+				0403F3C41D4DE83800F16F44 /* SFShopView.xib in Resources */,
 				0403F3A21D4DE3D400F16F44 /* LaunchScreen.storyboard in Resources */,
 				0403F39F1D4DE3D400F16F44 /* Assets.xcassets in Resources */,
 				0403F39A1D4DE3D400F16F44 /* Main.storyboard in Resources */,
@@ -152,10 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0403F3971D4DE3D400F16F44 /* ViewController.m in Sources */,
-				0403F3941D4DE3D400F16F44 /* AppDelegate.m in Sources */,
+				0403F3BF1D4DE64E00F16F44 /* main.m in Sources */,
+				0403F3C21D4DE82300F16F44 /* SFShopView.m in Sources */,
+				0403F3BE1D4DE64E00F16F44 /* AppDelegate.m in Sources */,
+				0403F3BB1D4DE64E00F16F44 /* ViewController.m in Sources */,
+				0403F3BC1D4DE64E00F16F44 /* SFShop.m in Sources */,
 				0403F39D1D4DE3D400F16F44 /* NinesquareAndXib.xcdatamodeld in Sources */,
-				0403F3911D4DE3D400F16F44 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +330,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NinesquareAndXib/NinesquareAndXib.pch;
 				INFOPLIST_FILE = NinesquareAndXib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjsxt.NinesquareAndXib;
@@ -278,6 +343,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NinesquareAndXib/NinesquareAndXib.pch;
 				INFOPLIST_FILE = NinesquareAndXib/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjsxt.NinesquareAndXib;
@@ -304,6 +371,7 @@
 				0403F3A81D4DE3D400F16F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
